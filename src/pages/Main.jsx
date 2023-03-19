@@ -512,15 +512,15 @@ const Main = props => {
         />
       </Center>
       <Center h="90vh">
-        <Paper w="50vw" h="85vh" p="1rem" pt="0.5rem" radius="lg" shadow="md" opacity="0.88">
+        <Paper w="60vw" h="85vh" p="1rem" pt="0.5rem" radius="lg" shadow="md" opacity="0.8">
           <Stack h="100%" justify="center" spacing={0}>
-            <Container w="100%" fluid>
-              <Text ml="3rem" size="3rem" fs="italic" sx={{ fontFamily: "'Great Vibes', cursive" }}>
+            <Container w="100%" mb="-0.75rem" fluid align="center">
+              <Text size="3.25rem" fs="italic" sx={{ fontFamily: "'Great Vibes', cursive" }}>
                 Daily Diary
               </Text>
             </Container>
             <Container mb="0.5rem" mr={0} maw="70%" fluid>
-              <Text size="0.8rem">
+              <Text size="0.7rem">
                 {quoteList[currentQuote]?.quote}
                 <br />
                 <span style={{ float: "right", marginRight: "2rem" }}>{quoteList[currentQuote]?.author}</span>
@@ -550,7 +550,7 @@ const Main = props => {
                   });
                 }}
                 style={{
-                  width: "calc(50vw - 2 * 1rem - 2 * 2px)",
+                  width: "calc(60vw - 2 * 1rem - 2 * 2px)",
                   padding: "10px",
                   fontSize: "1.2rem",
                   outline: "none",
